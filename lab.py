@@ -287,9 +287,5 @@ if __name__ == '__main__':
     #print(a[1])
     #print(c[1])
     x, u, v = build_auxiliary_structures('resources/mit.nodes', 'resources/mit.ways')
-    print(x)
-    print('\n')
-    print(u)
-    print('\n')
-    print(v)
+    
     print(find_short_path((x, u, v), (42.355, -71.1009), (42.3612, -71.092)))
